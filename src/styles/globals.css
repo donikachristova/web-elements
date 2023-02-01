@@ -3,3 +3,28 @@
 @tailwind utilities;
 
 
+/* SUBMIT BUTTON */
+
+.button {
+  font-family: 'Nunito', sans-serif;
+  background: #FB8C00;
+  background: -webkit-linear-gradient(to right, #FB8C00, #ff5858);
+  background: -webkit-gradient(linear, left top, right top, from(#FB8C00), to(#ff5858));
+  background: -webkit-linear-gradient(left, #FB8C00, #ff5858);
+  background: -o-linear-gradient(left, #FB8C00, #ff5858);
+  background: linear-gradient(to right, #FB8C00, #ff5858);
+  -webkit-transition: 200ms ease-out;
+  -o-transition: 200ms ease-out;
+  transition: 200ms ease-out;
+  -webkit-box-shadow: 0 0 90px #FB8C00;
+  box-shadow: 0 0 90px #FB8C00;
+}
+
+ .button:hover, .button:focus {
+     -webkit-box-shadow: 0 0 15px #FB8C00;
+     box-shadow: 0 0 15px #FB8C00;
+     transform: translateY(-6px);
+     color: #FB8C00;
+     background: #fff;
+      
+}
